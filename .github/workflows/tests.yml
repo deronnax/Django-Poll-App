@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
-      - run: pip install .
+      - run: pip install -r requirements.txt
       - run: poetry run python manage.py test

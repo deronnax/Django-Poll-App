@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-poll-app"
+version = "0.1.0"
+description = ""
+authors = ["Mahmudul Alam",
+            "Mathieu Dupuy"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_poll_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "3.1.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

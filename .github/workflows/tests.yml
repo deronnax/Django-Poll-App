@@ -12,5 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
-      - run: pip install -r requirements.txt
-      - run: python manage.py test
+      - run: snok/install-poetry@v1
+        with:
+          version: 1.4.1 # pin version to avoid breakage when Poetry change
+      - run: poetry install --no-root
+      - run: poetry run python manage.py test

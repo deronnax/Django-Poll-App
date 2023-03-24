@@ -5,6 +5,7 @@ on :
     paths:
        - '**.py'
        - .github/workflows/tests.yml
+       - poetry.lock
 
 jobs:
   test:

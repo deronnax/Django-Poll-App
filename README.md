@@ -20,10 +20,10 @@ poetry run python manage.py migrate
 poetry run python manage.py runserver
 ```
 
-You're set. Go visit http://127.0.0.1:8000 in your browser
-
+You're set. Go visit http://127.0.0.1:8000 in your browser.
 
 ## Project snapshot
+
 ### Home page
 <div align="center">
     <img src="https://user-images.githubusercontent.com/19981097/51409444-0e40a600-1b8c-11e9-9ab0-27d759db8973.jpg" width="100%"</img> 
